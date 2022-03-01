@@ -1,0 +1,158 @@
+/*Removes default styling*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	margin: 40px;
+	font-size: 35px;
+}
+
+h3 {
+	padding: 10px 0;
+	font-size: 25px;
+}
+
+#hero-container {
+	width: 100%;
+	height: 100vh; 
+
+	/*Image background*/
+	background-image: url('../public/zoo.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	/* Tint color */
+	background-color: rgba(1,1,1,0.5);
+  	background-blend-mode: multiply;
+
+  	text-align: center;
+}
+
+#main-title {
+	color: white;
+	font-size: 100px;
+	width: 75%;
+
+/*	Below will position the text vertically*/
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.section-container {
+	width: 75%;
+	text-align: center;
+	margin: 100px auto;
+}
+
+.description-text {
+	font-size: 25px;
+}
+
+.block-text {
+	color: white;
+	font-size: 18px;
+	padding: 0 25px;
+}
+
+#block-1 {
+	float: left;
+	width: 33%;
+	padding: 50px 0;
+	border: 1px solid black;
+
+	background-image: url('../public/bear.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	/* Tint color */
+	background-color: rgba(1,1,1,0.50);
+  	background-blend-mode: multiply;
+}
+
+#block-2 {
+	float: left;
+	width: 33%;
+	padding: 50px 0;
+	border: 1px solid black;
+
+	background-image: url('../public/tiger.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	/* Tint color */
+	background-color: rgba(1,1,1,0.50);
+  	background-blend-mode: multiply;
+}
+
+#block-3 {
+	float: left;
+	width: 33%;
+	padding: 50px 0;
+	margin-bottom: 100px;
+	border: 1px solid black;
+
+	background-image: url('../public/lion.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	/* Tint color */
+	background-color: rgba(1,1,1,0.50);
+  	background-blend-mode: multiply;
+}
+
+#block-4 {
+	float: left;
+	width: 49%;
+	height: 325px;
+	margin-top: 50px;
+
+	background-image: url('../public/event.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#block-5 {
+	float: left;
+	width: 49%;
+	height: 325px;
+	margin: 50px 0 100px 0;
+
+	border: 5px solid white;
+	border-width: 0 0 0 10px;
+	background-color: #F0F0F0;
+	text-align: left;
+}
+
+#events-ul {
+	margin: 10px 25px;
+	padding: 0;
+}
+
+#events-ul li {
+	font-size: 17px;
+	padding: 10px 0;
+}
+
+#contact-ul {
+	list-style-type: none;
+}
+
+#contact-ul li {
+	margin: 20px auto;
+}
+
+#contact-ul a {
+	color: black;
+	font-size: 20px;
+}
+
+
